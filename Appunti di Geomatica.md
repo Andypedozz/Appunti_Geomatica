@@ -24,6 +24,8 @@ Una mappa in larga scala è una mappa che mostra maggiore dettaglio in quanto la
 
 ### Mappa Topografica
 
+<div style="page-break-after: always;"></div>
+
 ### Proiezioni
 Una proiezioni di una mappa è un qualsiasi metodo di rappresentazione della superficia di una sfera o di un altro oggetto tridimensionale, su un piano.
 
@@ -61,6 +63,8 @@ La longitudine di un punto sulla terra indica l'angolo est o ovest da un meridia
 
 ### Coordinate Polari (sferoide)<br>
 ![alt text](image-4.png)
+
+<div style="page-break-after: always;"></div>
 
 ## Sistema di Riferimento a Coordinate
 Un CRS è un sistema globale, regionale o locale, basato su coordinate, per localizzare entità geografiche.
@@ -113,6 +117,8 @@ Confini:
 ### Urbanistica
 Costruzioni e molto altro...
 
+<div style="page-break-after: always;"></div>
+
 ## Leggere una mappa
 1 Step
 * Posizione geografica dell'area di studio
@@ -134,6 +140,8 @@ Costruzioni e molto altro...
     * attività umane
     * elementi seminaturali
         * confronto con altre fonti: carte tematiche, dati statistici, bibliografia...
+
+<div style="page-break-after: always;"></div>
 
 # Rilevamento Remoto
 
