@@ -770,3 +770,739 @@ https://www.youtube.com/watch?v=bY8iq0F-pWA
 
 Manuale di Agisoft Photoscan (in italiano)
 http://www.agisoft.com/pdf/manuals_other/pscan_pro_it_1-2.pdf
+
+
+### 03 SISTEMI INFORMATIVI GEOGRAFICI
+
+**SISTEMI INFORMATIVI GEOGRAFICI**
+
+
+### GIS? Che cos’è?
+
+**Sistema informativo**
++
+**Posizione geografica**
+
+Un mezzo per archiviare, recuperare, ordinare e confrontare dati spaziali per supportare un processo analitico.
+
+
+
+### GIS? Che cos’è?
+
+Non esiste più una risposta semplice
+
+* **Informazione geografica/geospaziale**
+
+  * informazione sui luoghi sulla superficie terrestre
+  * conoscenza di “che cosa si trova dove e quando” (non dimenticare il tempo!)
+  * geografico/geospaziale: sinonimi
+
+* **GIS — cosa significa la S?**
+
+  * Systems (Sistemi): la tecnologia
+  * Science (Scienza): i concetti e la teoria
+  * Studies (Studi): il contesto sociale
+
+
+
+### Sistemi, Scienza e Studi GI
+
+* **Sistemi**
+  tecnologia per l’acquisizione e la gestione delle informazioni spaziali
+
+* **Scienza**
+  comprendere le questioni concettuali alla base della rappresentazione dei dati e dei processi nello spazio-tempo
+  la teoria e i concetti dietro la tecnologia
+  introdurre abbastanza teoria per applicare correttamente i sistemi e comprenderne capacità e limiti
+
+* **Studi**
+  comprendere gli aspetti sociali, legali ed etici legati all’applicazione dei GIS
+
+
+
+### Definizione di GIS
+
+* Un GIS è un sistema (hardware + motore di database) progettato per assemblare, memorizzare, aggiornare, analizzare, manipolare e visualizzare in modo efficiente informazioni georeferenziate (dati identificati dalla loro posizione).
+
+* Un GIS include anche le persone che lo utilizzano e i dati inseriti nel sistema.
+
+
+
+### Componenti di un GIS
+
+* **Hardware**
+
+  * Computer
+  * Reti
+  * Stampanti, plotter, scanner
+
+* **Software**
+
+  * Software GIS
+  * Software di database
+  * Sistema operativo
+  * Software di rete
+
+* **Persone**
+
+  * Amministratori
+  * Manager
+  * Tecnici GIS
+  * Utenti
+
+* **Dati**
+
+  * Dati vettoriali
+  * Dati raster
+  * Immagini
+  * Attributi
+
+* **Regole**
+
+  * Linee guida
+  * Standard
+  * Procedure
+
+
+
+### Componenti del GIS
+
+Persone
+Software
+Dati
+Hardware
+Procedure
+
+
+
+### Modello dei dati GIS: scopo
+
+Permette che le caratteristiche geografiche del mondo reale siano rappresentate digitalmente e memorizzate in un database, in modo da poter essere presentate in forma cartografica (analogica) e manipolate per risolvere problemi.
+
+
+
+### Astrazione del mondo reale
+
+
+
+### Modello GIS
+
+* Modellazione dei dati spaziali
+* Visualizzazione dei dati spaziali
+* Analisi spaziale
+* Modellazione spaziale
+* Dati attributo
+* Sistema di gestione di database
+
+
+
+### Modello dei dati GIS: esempio
+
+Abbiamo tre livelli (layer) o temi:
+
+* strade
+* idrologia (acqua)
+* topografia (elevazione del terreno)
+
+Possono essere correlati perché per ciascun tema sono registrate coordinate geografiche precise.
+
+I layer comprendono due tipi di dati:
+
+* dati spaziali (dove)
+* dati attributo (cosa, quanto, quando)
+
+I layer possono essere rappresentati in due modi:
+
+* formato vettoriale (punti e linee)
+* formato raster (pixel/immagini)
+
+Tutti i dati geografici hanno 4 proprietà:
+
+* proiezione
+* scala
+* accuratezza
+* risoluzione
+
+
+
+### Collegamento tra entità spaziali e attributi
+
+Dati spaziali (funzioni ARC)
+Dati attributo (funzioni INFO o TABLE)
+
+
+
+### Sistema Informativo Geografico
+
+Il GIS collega elementi grafici (entità) a dati tabellari (attributi).
+
+
+
+### Analisi GIS
+
+* Classificazione dei dati
+* Confronto dei dati
+* Intersezione di elementi grafici
+* Operazioni topologiche
+* Statistica spaziale
+* Modellazione spaziale
+* Data mining
+
+
+
+### Output GIS
+
+* Mappe
+* Diagrammi
+* Report
+* Modelli n-dimensionali
+
+
+
+### Output GIS
+
+**VISUALIZZAZIONE**
+
+
+
+### Materiali e testi del corso
+
+* Appunti del corso e slide
+* Manuale QGIS ([http://qgis.org/documentazione/manuali.html?lang=it](http://qgis.org/documentazione/manuali.html?lang=it))
+* GIS Open Source (Dario Flaccovio Editore)
+
+
+
+**Geomatica**
+informatica applicata
+Urbino Worldwide Campus
+
+### 03.01 CARTOGRAFIA DIGITALE E DATABASE
+
+**CARTOGRAFIA DIGITALE E DATABASE**
+Mauro De Donatis
+Dipartimento DISPEA di Scienze Pure e Applicate
+
+
+
+### ANALOGICO vs. DIGITALE
+
+**Analogico**
+
+* mappe cartacee
+* fotografie aeree stampate
+* tabelle statistiche
+* scala fissa
+* necessità di conversione in formato digitale
+
+**Digitale**
+
+* file di dati digitali
+* immagini da telerilevamento
+* file di output GPS
+* scala “libera” / flessibile
+* formato del file predefinito
+* scaricabile o copiabile
+
+
+
+### Astrazione del mondo reale
+
+
+
+### Dati geografici
+
+**DATI**
+I dati permettono di costruire un modello del mondo reale
+
+* Dati spaziali
+* Dati attributo
+
+Esempi:
+
+* fermata bus
+* limite di velocità (35)
+* nome della strada
+* intervallo civici a sinistra/destra
+* lunghezza del percorso
+* direzione di percorrenza
+
+
+
+### Mappe dinamiche
+
+* Spostamento sulla mappa (pan/zoom/salto)
+* Modifica dei simboli: linee/colori/icone/font
+* Visualizzazione simultanea di più dati e mappe
+* Attivazione/disattivazione delle informazioni
+
+
+
+### Selezioni GIS
+
+* Selezione grafica
+* Selezione tramite query
+
+
+
+### GIS: collegamento tra entità e attributi
+
+* Il GIS collega elementi grafici al database
+* Coordinate spaziali
+* Simboli
+* Dati/Informazioni
+
+
+
+### Sistema Informativo Geografico
+
+Il GIS collega elementi grafici (entità) a dati tabellari (attributi).
+
+
+
+### Modello dei dati GIS: scopo
+
+Il GIS consente che le caratteristiche geografiche del mondo reale siano rappresentate digitalmente e memorizzate in un database, così da poter essere presentate in forma astratta su una mappa (analogica) e manipolate per risolvere problemi.
+
+
+
+### Modello dei dati GIS: esempio
+
+Abbiamo tre layer (livelli/temi):
+
+* strade
+* idrologia (acqua)
+* topografia (altitudine del terreno)
+
+Sono collegabili grazie alle coordinate geografiche precise registrate per ciascun tema.
+
+I layer comprendono due tipi di dati:
+
+* dati spaziali (dove)
+* dati attributo (cosa, quanto, quando)
+
+Rappresentazione dei layer:
+
+* formato vettoriale (punti e linee)
+* formato raster (pixel/immagini)
+
+Proprietà dei dati geografici:
+
+* proiezione
+* scala
+* accuratezza
+* risoluzione
+
+
+
+### Layer
+
+**Layer vettoriali**
+
+* rete stradale: linee
+* particelle catastali: poligoni
+
+**Layer raster (immagini)**
+
+* ortofoto digitale:
+  combina le proprietà visive di una fotografia con l’accuratezza posizionale di una mappa, in formato leggibile dal computer
+
+
+
+### Classificazione dei dati: METADATI
+
+Il termine metadati è spesso spiegato come “dati sui dati”.
+
+Tradizionalmente presenti nei cataloghi delle biblioteche, oggi i metadati descrivono anche dati digitali secondo standard specifici. Descrivendo contenuto e contesto dei dati, migliorano notevolmente la qualità dei file.
+
+
+
+### METADATI GEOSPAZIALI
+
+I metadati geospaziali (o geografici) si applicano a oggetti con una posizione geografica esplicita o implicita sulla superficie terrestre.
+
+Questi oggetti possono essere:
+
+* dati GIS
+* documenti
+* dataset
+* immagini
+* servizi
+
+Possono essere organizzati in cataloghi (directory o inventari di dati).
+
+
+
+### METADATI GEOSPAZIALI
+
+**ISO 19115 – “Informazione geografica – Metadati”**
+Fornisce informazioni su:
+
+* identificazione
+* estensione
+* qualità
+* schema spazio-temporale
+* riferimento spaziale
+* distribuzione dei dati geografici digitali
+
+Principi applicabili anche a:
+
+* mappe
+* carte
+* documenti testuali
+* dati non geografici
+
+**Definizione FGDC (USA):**
+Un record di metadati è un file (spesso XML) che descrive le caratteristiche principali di una risorsa informativa:
+
+* chi
+* cosa
+* quando
+* dove
+* perché
+* come
+
+Include:
+
+* titolo, abstract, dati di pubblicazione
+* estensione geografica e proiezione
+* definizioni degli attributi
+
+
+
+### METADATI INSPIRE
+
+INSPIRE è un’iniziativa dell’Unione Europea per creare un’infrastruttura di informazioni territoriali, rendendo i dati geografici più accessibili e interoperabili a supporto dello sviluppo sostenibile.
+
+La direttiva INSPIRE:
+
+* è entrata in vigore il 15 maggio 2007
+* definisce un quadro per infrastrutture di dati spaziali (SDI)
+* supporta politiche ambientali europee
+* copre 34 temi di dati spaziali
+
+
+
+### METADATI INSPIRE
+
+Per garantire compatibilità e utilizzo tra Stati membri, la direttiva richiede regole comuni per:
+
+* metadati
+* interoperabilità dei dati e servizi
+* servizi di rete
+* condivisione dei dati
+* monitoraggio e reporting
+
+
+### 03.02 Formato file – Georeferenziazione – Feature
+
+**FORMATI FILE RASTER e VECTOR**
+
+
+
+### Raster vs. Vector
+
+**Vantaggi del RASTER**
+
+* formato di dati più comune
+* facile eseguire operazioni matematiche e di overlay
+* facile integrazione di dati satellitari
+* migliore rappresentazione di dati “continui”
+
+**Vantaggi del VECTOR**
+
+* elevata precisione della posizione (ideale per elementi discreti: strade, coste, fondali, ecc.)
+* minore occupazione di spazio su disco
+* possibilità di associare un numero illimitato di attributi
+
+
+
+### Elementi spaziali
+
+* Raster
+* Vector
+* Mondo reale
+
+
+
+### Che tipo di mappa digitale?
+
+Raster?
+Vector?
+
+
+
+### RASTER
+
+Memorizza immagini come righe e colonne di numeri con un **valore digitale (DN)** per ogni cella.
+
+* unità rappresentate come celle quadrate uniformi
+* dati classificati come:
+
+  * **continui** (es. immagini)
+  * **tematici** (ogni cella rappresenta una classe/feature)
+
+
+
+### Formato raster
+
+Nelle immagini la cella minima è il **pixel**, con:
+
+* coordinate
+* informazioni di colore
+
+
+
+### Rasterizzazione delle entità
+
+(processo di conversione in formato raster)
+
+
+
+### Formati raster principali
+
+* ADRG
+* BIL
+* CADRG
+* CIB
+* DRG
+* ECRG
+* ECW
+* Esri Grid
+* GeoTIFF
+* IMG
+* JPEG2000
+* MrSID
+
+
+
+### GeoTIFF
+
+Standard pubblico che permette di incorporare informazioni di georeferenziazione in un file TIFF.
+
+Include:
+
+* proiezione
+* sistema di coordinate
+* ellissoide
+* datum
+* riferimento spaziale completo
+
+Compatibile con TIFF 6.0 (leggibile anche senza supporto GIS).
+
+**File associati:**
+
+* .TIF / .TIFF → immagine
+* .TFW → file di georeferenziazione
+* opzionale: .PRJ → sistema di proiezione
+
+
+
+### ATTRIBUTI
+
+* **Raster:** il valore della cella (DN) è l’attributo
+
+  * es. luminosità, copertura del suolo, temperatura
+
+* **Vector:**
+
+  * attributi collegati a punti, linee e poligoni
+  * più attributi per ogni elemento
+  * collegamento tramite ID univoco
+
+
+
+### VECTOR
+
+* rappresenta posizioni specifiche nello spazio continuo
+* memorizza elementi come coppie di coordinate X,Y
+
+
+
+### Formati vector principali
+
+* **Shapefile** (ESRI)
+* **Spatialite** (open source)
+
+
+
+### SHAPEFILE
+
+* memorizza geometria + attributi
+* geometria = insieme di coordinate vettoriali
+* vantaggi:
+
+  * veloce da disegnare
+  * facile da modificare
+  * poco spazio su disco
+* supporta:
+
+  * punti
+  * linee
+  * poligoni
+
+Attributi salvati in formato **dBase (.dbf)**
+Relazione 1:1 tra geometria e attributi
+
+
+
+### File obbligatori dello shapefile
+
+* **.shp** → geometria
+* **.shx** → indice
+* **.dbf** → attributi
+
+
+
+### File opzionali
+
+* .prj → sistema di riferimento
+* .sbn / .sbx → indice spaziale
+* .ain / .aih → indice attributi
+* .xml → metadati
+* .cpg → codifica caratteri
+  (altri file di supporto)
+
+
+
+### Problemi dello SHAPEFILE
+
+* formato datato
+* composto da più file (se uno manca → dataset inutilizzabile)
+* molto diffuso come standard di scambio
+
+
+
+### SPATIALITE
+
+* formato open source basato su database
+* supporta geometrie standard OGC
+* permette query SQL
+* può leggere shapefile senza importarli
+
+
+
+### Classi geometriche
+
+* semplici
+* multiple
+* collezioni
+
+
+
+### Georeferenziazione
+
+Georeferenziare significa definire la posizione di un oggetto nello spazio reale tramite:
+
+* sistemi di coordinate
+* proiezioni cartografiche
+
+Serve per collegare:
+
+* immagini raster
+* dati vettoriali
+* altri dati geografici
+
+
+
+### Applicazioni
+
+* posizionare immagini satellitari
+* confrontare dati nel tempo
+* unire mappe con sistemi diversi
+* integrare dati GPS
+* collegare dati statistici a territori
+
+
+
+### Ground Control Points (GCP)
+
+* punti con coordinate note
+* usati per georeferenziare immagini
+* consigliati: 12–20 punti distribuiti
+* ottenibili tramite GPS o cartografia
+
+
+
+### Georeferenziazione con QGIS
+
+Procedura:
+
+1. Aprire plugin “Georeferencer”
+2. Caricare immagine raster
+3. Definire sistema di riferimento (CRS)
+4. Inserire GCP (punti di controllo)
+5. Avviare georeferenziazione
+6. Verificare il risultato
+
+
+
+### Feature (entità)
+
+Elementi spaziali:
+
+* **Punti** (più semplici)
+* **Linee** (insieme di punti)
+* **Poligoni** (linee chiuse)
+
+
+
+### Attributi (vector)
+
+* collegati a ogni feature
+* memorizzano informazioni descrittive
+
+
+
+### Operazioni topologiche principali
+
+* Buffer
+* Overlay
+* Union
+* Intersect
+* Identity
+* Operazioni booleane
+
+
+
+### BUFFER (analisi di prossimità)
+
+Definisce una zona attorno a un elemento:
+
+* punto → cerchio
+* linea → fascia
+* poligono → area estesa
+
+Può variare in base agli attributi (es. livello di inquinamento).
+
+
+
+### OVERLAY
+
+Combina più layer per analisi spaziale:
+
+* confronto
+* sovrapposizione
+* intersezione
+
+Tipi:
+
+* **Vector overlay** → più complesso
+* **Raster overlay** → confronto cella per cella
+
+
+
+### Tipi di overlay vector
+
+* punto in poligono
+* linea in poligono
+* poligono in poligono
+
+
+
+### Operazioni booleane
+
+* **UNION (OR)** → unisce aree
+* **INTERSECT (AND)** → mantiene solo aree comuni
+* **IDENTITY** → mantiene caratteristiche di un layer
+
