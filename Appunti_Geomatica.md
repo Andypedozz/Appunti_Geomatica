@@ -15,6 +15,8 @@ La Geomatica è un termine scientifico relativamente nuovo, coniato da Pollock e
 - Fotogrammetria
 - Geografia e forme correlate di mappatura terrestre
 
+<div style="page-break-after: always;"></div>
+
 ### Struttura del corso
 
 #### 01. Introduzione
