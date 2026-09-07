@@ -26,7 +26,6 @@
     * DEM e DTM (2.5D)
     * Modelli 3D e n-dimensionali
 
-
 ## Cartografia
 La cartografia è lo studio delle mappe e la pratica di realizzare mappe.
 
@@ -94,11 +93,34 @@ Il telerilevamento ottico utilizza sensori nel visibile, nel vicino infrarosso e
 ### Orbite satellitari
 Il percorso seguito da un satellite è definito orbita. I satelliti geostazionari si trovano ad altitudini di circa 329.000 Km e ruotano a velocità che corrispondono alla rotazione terrestre. La maggior parte delle piattaforme satellitari di telerilevamento oggi si trova in orbite quasi polari, il che significa che il satellite viaggia verso nord su un lato della Terra e poi verso il polo sud a nella seconda metà della sua orbita. Queste sono chiamate rispettivamente passaggi ascendenti e discendenti.
 
+## Le 4 risoluzioni
+* Risoluzione Spaziale: area minima sul terreno visibile al sensore.
+* Risoluzione Radiometrica: capacità di distinguere piccole differenze di energia
+
+* Risoluzione spettrale: capacità di analizzare parti dello spettro utilizzando un sensore pancromatico, multispettrale o iperspettrale.
+
 ### Immagini satellitari
 * Panoramiche: un sensore a canale singolo viene utilizzato per rilevare la radiazione. Se l'intervallo di lunghezza d'onda e l'intervallo visibile coincidono, l'immagine apparirà come una fotografia in bianco e nero scattata dallo spazio.
 * Multispettrali: usano un rilevatore multicanale e registrano la radiazione con un intervallo ristretto. Sono disponibili informazioni sulla luminosità e sul colore.
 
-### Risoluzione Spaziale
-Area minima sul terreno visibile al sensore. Esempio: Quickbird Pancromatico - 293cm di risoluzione.
+Formati Raster: GeoTIFF, JPEG 2000, ECW, MrSID
+Formati Vettoriali: Shapefile, GeoPackage, SpatiaLite
 
-### Risoluzione Radiometrica
+# Georeferenziazione
+Significato: assegnare coordinate geografiche reali a un immagine raster o a un dato vettoriale, stabilendo la corrispondenza tra i pixel e le posizioni sul terreno.
+
+## Modelli di Dati nei GIS
+* Formato Raster: rappresenati lo spazio tramite una griglia di pixel. Ogni cella contiene un valore numerico, ideal per DEM e immagini satellitari.
+* Formato Vettoriale: rappresenta lo spazio con 3 oggetti primitivi: punti, linee e poligoni. Ogni elemento è localizzato con precisione tramite array di coordinate (X, Y) più degli attributi associati.
+
+Ground Control Points (GCP): sono dei punti la cui posizione sulla terra è nota, che servono a orientare la carta.
+
+# Sistemi di posizionamento globale (GNSS)
+
+GNSS (Global Navigation Satellite System): sono sistemi globali di navigazione basati su costellazioni di satelliti che trasmettono segnali. Ricevendo questi segnali, un dispositivo sulla terra può calcolare la sua posizione.
+
+## Costellazioni
+* GPS (USA)
+* Glonass (Russia)
+* Galielo (Europa)
+* Compass (Cina)
