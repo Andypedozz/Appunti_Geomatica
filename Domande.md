@@ -10,7 +10,7 @@
 * Stereoscopia
 * Perchè l'overlap è tipicamente del 50%
 * Radar e Lidar in generale
-* Cos è il TSL
+* Cos è il TLS
 * Tipi di GNSS
 * Tre segmenti del GPS 
 * Principio di funzionamento del GPS (trilaterazione)

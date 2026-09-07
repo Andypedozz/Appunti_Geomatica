@@ -27,6 +27,65 @@
     * Modelli 3D e n-dimensionali
 
 
+## Cartografia
+La cartografia è lo studio delle mappe e la pratica di realizzare mappe.
+
+Si possono realizzare diversi tipi di mappe:
+* Mappe topografiche
+* Mappe idrografiche
+* Mappe orografiche
+* Mappe urbane
+
+Ogni mappa geografica è caratterizzata da una scala. La scala di una mappa indica il rapporto tra una distanza sulla mappa e sulla Terra. In base a essa distinguiamo mappe a piccola scala (1:10.000 - 1:50.000), mappe a scala intermedia (1:50.000 - 1:250.000) e mappe a piccola scala (1.250.000 - 1.7.500.000).
+
+La scala è rappresentata sulle mappe anche visualmente, tramite delle linee indicative della distanza da prendere sulla mappa. Questa è utile in quanto consente di mantenere l'informazione anche se la mappa viene stampata in diverse dimensioni.
+
+## Proiezioni Cartografiche:
+
+Le proiezioni sono delle trasformazioni che vengono effettuate per rappresentare la terra, o un oggetto tridimensionale qualsiasi, su un piano. Le proiezioni vengono scelte in base allo scopo della mappa in quanto esse comportano una distorsione dell'oggetto in esame, riguardo a una o più proprietà. Perciò esistono diverse proiezioni:
+* Conformi: conservano gli angoli e le forme locali (UTM)
+* Equivalenti: conservano le aree (Lambert)
+* Equidistanti: conservano le distanze rispetto a un punto o a una linea di riferimento.
+
+## Coordinate Geografiche
+Per identificare un qualsiasi punto sulla terra si usano due coordinate geografiche:
+* Latitudine: è l'angolo compreso tra il piano equatoriale e una linea perpendicolare al piano equatoriale passante per il punto. (circonferenze)
+* Longitudine: è l'angolo compreso tra una linea parallela passante per il punto e il meridiano di Greenwich. (semicirconferenze)
+
+## Formati delle coordinate
+Le coordinate possono essere espresse in Gradi, Primi e Secondi sessaggesimali o in gradi decimali, come avviene nella cartografia digitale e nel GPS.
+
+## Forme della Terra
+La terra viene approssimata sia con un Elissoide o un Geoide.
+
+# Sistemi di Riferimento
+Esistono diversi sistemi di riferimento per geolocalizzare punti sulla Terra.
+
+* Gauss-Boaga (Roma 40): sistema di riferimento italiano proposto da Giovanni Boaga.
+* WGS 84: sistema di riferimento globalo usato dai sistemi GPS
+* UTM (Universal Transverse Mercator): divide la terra in 60 fusi, di cui l'italia occupa il fuso 32 e 33.
+
+## Curve di Livello
+Le curve di livello sono delle curve che rappresentano insiemi di punti su una mappa che condividono la stessa altitudine.
+
+# Modelli Digitali
+I modelli digitali sono rappresentazioni numeriche dell'altimetria.
+
+* DEM (Digital Elevation Model): qualsiasi modello di quota, generato tramite fotogrammetria, Lidar aereo, interferometria SAR e digitalizzazione di curve di livello.
+* DTM (Digital Terrain Model): modello che rappresenta solo la quota del terreno spoglio di vegetazione e urbanistica.
+* DSM (Digital Surface Model): modello di quota che rappresenta il terreno e anche vegetazione e edifici.
+
+## Modellazione 2.5D
+Si tratta di un tipo di modellazione intermedio tra il 2D e il 3D in quanto non modella volumi o oggetti tridimensionali, ma solo superfici seppure definite su 3 dimensioni. Viene spesso abbinato alla fotogrammetria in modo da applicare un immagine (fotografia aerea, immagine satellitare o mappa geologica) sulla superficie di un DEM, ottenendo una visualizzazione tridimensionale del territorio.
+
+## Come si generano i DEM?
+* Fotogrammetria: a partire da coppie stereoscopiche o image matching automatico
+* Lidar aereo: nuvola di punti 3D
+* Interferometria SAR: tramite segnali RADAR
+* Digitalizzazione di curve di livello: da carte topografiche tradizionali
+
+## Telerilevamento: Lidar
+
 ## Telerilevamento: Immagini satellitari
 ### Sistemi ottici: Telerilevamento passivo
 
